@@ -1,0 +1,78 @@
+ FoodRecipe App
+
+A React Native mobile application built with Expo for discovering, saving, and cooking delicious recipes.
+
+## Project Overview
+FoodRecipe App is designed for home cooks, students, and food enthusiasts. It allows users to explore a wide variety of recipes, filter them by category, save favorites, and view complete cooking instructions.
+
+## Key Features
+- **12+ Recipe Categories**: Italian, Indian, Salad, Dessert, Mexican, Asian, Breakfast, Vegetarian, Seafood, BBQ & Grill, Healthy, Quick & Easy  
+- **Recipe Details**: Ingredients, instructions, preparation time, number of servings, calories, and difficulty level  
+- **Category Filtering**: Click a category to see recipes specific to it  
+- **Favorites**: Heart icon toggles favoriting; saved recipes appear in a dedicated section  
+- **Recipe Modal**: Detailed view of recipes with images and step-by-step instructions  
+
+## Screenshots
+| Home Screen | Recipe Details | Favorites |
+|-------------|----------------|-----------|
+| ![Home](screenshots/home.png) | ![Details](screenshots/details.png) | ![Favorites](screenshots/favorites.png) |
+
+## Installation
+### Prerequisites
+- Node.js (v14 or higher)  
+- npm or yarn  
+- Expo CLI  
+
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/ewuwise/FoodRecipeApp.git
+
+# Navigate to the project directory
+cd FoodRecipeApp
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
+````
+
+* Press `i` for iOS simulator, `a` for Android emulator, or scan the QR code with Expo Go on a physical device.
+
+## Live Demo
+
+* **Snack Expo:** [Import from GitHub](https://snack.expo.dev/import-github?github_url=https://github.com/ewuwise/FoodRecipeApp)
+
+## Technology Stack
+
+* **React Native**: Mobile app framework
+* **Expo**: Development & testing
+* **React Navigation**: App navigation
+* **React Native Vector Icons**: Icons throughout the app
+* **AsyncStorage**: Local data storage
+
+## Rubric Requirements Met
+
+1. **GitHub Repository Import** – Public repository ready for Snack Expo import
+2. **12+ Categories** – Horizontal scroll displays all recipe categories
+3. **Recipe Details** – Ingredients, instructions, prep time, servings, calories, difficulty
+4. **Category Filtering** – Recipes filtered by selected category
+5. **Favorite Toggle** – Heart icon toggles favoriting/unfavoriting
+6. **Favorites Section** – Displays saved recipes
+7. **Detailed Recipe View** – Modal shows complete recipe info
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add your feature"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
+
+If you want, I can also **add a “How to Use” section with quick screenshots and instructions** for each feature to make it even more beginner-friendly. Do you want me to do that?
+```
